@@ -1,0 +1,29 @@
+.main_article .text{
+    color: brown;
+}
+
+html body{
+    color: blueviolet;
+}
+
+html{
+    color: dodgerblue;
+}
+
+body {
+    background-color: lightgray;
+    color: coral !important;
+}
+
+p.text{
+    color: darkblue !important;
+}
+body #mainArticle .text#firsParagraph{
+    color: black;
+}
+/*
+Specificity - (I, C, T)
+T = tag name count in selector
+C = classes count in selector
+I = ids count in selector
+ */
